@@ -1,5 +1,5 @@
 <?php
-/*
+/**
  * credit to @amirkode (github)
  * reach me on amirmb.com
  * 22-12-2020
@@ -10,6 +10,8 @@
  *
  *
  * DTUtil (DataTable Utility) version 1.0.0
+ * @license MIT for DataTable http://datatables.net/license_mit
+ * @license MIT for Laravel https://laravel-guide.readthedocs.io/en/latest/license/
  */
 namespace AmirKode\LaravelDTUtil;
 
