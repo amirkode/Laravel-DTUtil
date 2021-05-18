@@ -290,7 +290,8 @@ class DTUtil
                     array_push($orders, $currOrder);
                 }
 
-                $order = ($preOrdered ? '' : 'ORDER BY ') . implode(', ', $orders);
+                $order = ($preOrdered ? '' : 'ORDER BY ') . implode(', ', $orders) .
+                    ($preOrdered ? ',' : '');
                 $this->order = $order;
                 $this->mainQuery = str_replace($orderSpecifier, $order, $this->mainQuery);
             } else
